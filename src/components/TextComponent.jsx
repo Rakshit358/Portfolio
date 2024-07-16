@@ -43,7 +43,7 @@ const TextTransition = () => {
 
   return (
     <h1
-      className={`text-[22px] font-[450] transition-opacity duration-1000 ${
+      className={`text-lg font-medium transition-opacity duration-1000 ${
         isFading ? "opacity-0" : "opacity-100"
       }`}
     >
